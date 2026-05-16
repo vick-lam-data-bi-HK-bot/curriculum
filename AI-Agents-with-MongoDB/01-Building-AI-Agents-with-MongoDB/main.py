@@ -1,5 +1,6 @@
 import key_param
 from pymongo import MongoClient
+from langchain_openai import ChatOpenAI
 from langchain.agents import tool
 from typing import List
 from typing import Annotated
